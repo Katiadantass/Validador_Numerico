@@ -1,6 +1,6 @@
-document.querySelector("#form").addEventListener("submit", function(event) {
+document.querySelector("#form-deposito").addEventListener("submit", function(event) {
     let PrimeiroNumero = document.querySelector("#CampoA");
-    let SegundoNumero = document.querySelector("CampoB");
+    let SegundoNumero = document.querySelector("#CampoB");
 
     // Converter os valores dos campos de entrada para números
     let primeiroNumeroConvertido = parseInt(PrimeiroNumero.value);
